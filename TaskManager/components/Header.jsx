@@ -1,4 +1,4 @@
-import { View, Text , StyleSheet,Image} from 'react-native'
+import { View, Text , StyleSheet,Image, TouchableOpacity} from 'react-native'
 import React from 'react'
 
 export default function Header() {
@@ -8,7 +8,10 @@ export default function Header() {
         <Text style={styles.title}>Hello , Devs</Text>
         <Text style={styles.subTitle}>14 tasks today</Text>
       </View>
-      <Image source={require('../assets/images/profileImage.png')} style={styles.user}/>
+      <TouchableOpacity>
+        <Image source={require('../assets/images/profileImage.png')} style={styles.user}/>
+      </TouchableOpacity>
+      
     </View>
   )
 };
