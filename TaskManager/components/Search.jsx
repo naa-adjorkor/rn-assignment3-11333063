@@ -3,12 +3,12 @@ import { Image, StyleSheet, TextInput, TouchableOpacity, View } from 'react-nati
 
 export default function Search() {
   return (
-    <View>
-    <View style={styles.searchBox}>
-      <Image style={styles.searchIcon} source={require('../assets/images/searchIcon.png')}/>
-      <TextInput style={styles.search} placeholder='Search' placeholderTextColor={'black'}/>
-     </View>
-       <TouchableOpacity style={styles.menuBox}>
+    <View style={styles.container}>
+      <View style={styles.searchBox}>
+        <Image style={styles.searchIcon} source={require('../assets/images/searchIcon.png')}/>
+        <TextInput style={styles.search} placeholder='Search' placeholderTextColor={'black'}/>
+      </View>
+      <TouchableOpacity style={styles.menuBox}>
         <Image style={styles.menu} source={require('../assets/images/menu.png')}/>
       </TouchableOpacity>
     </View>
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   searchBox:{
     flexDirection:'row',
     top:65,
-    width:285,
+    maxWidth:'70%',
     height:48,
     left:20,
     border:1,
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     width:50,
     height:48,
     borderRadius:14,
-    left:340,
+    left:'82%',
     top:18,
   },
   menu:{
