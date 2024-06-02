@@ -48,9 +48,9 @@ const styles = StyleSheet.create({
     top:18,
   },
   menu:{
-    width:34,
-    height:34,
-    left:8,
-    top:6,
+    width:30,
+    height:30,
+    left:10,
+    top:8,
   },
 })

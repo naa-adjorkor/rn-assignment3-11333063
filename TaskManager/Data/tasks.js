@@ -1,0 +1,18 @@
+export const tasks =[
+    {id:1  , description:'Mobile App Development'},
+    {id:2  , description:'Web Development'},
+    {id:3  , description:'Push Ups'},
+    {id:4  , description:'Check Up'},
+    {id:5  , description:'Laundry'},
+    {id:6  , description:'Grocery Shopping'},
+    {id:7  , description:'Visit family'},
+    {id:8  , description:'UI/UX Design'},
+    {id:9  , description:'Team Meeting'},
+    {id:10 , description:'Reading'},
+    {id:11 , description:'Watching A movie'},
+    {id:12 , description:'Photography Session'},
+    {id:13 , description:'Cooking Dinner'},
+    {id:14 , description:'Cleaning the house'},
+    {id:15 , description:'Planting flowers'},
+    {id:16 , description:'Project planning'},
+]
