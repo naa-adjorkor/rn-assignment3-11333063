@@ -26,10 +26,15 @@ Contains the data for the task section.
 5. styles
 Contains the styles for the application
 
-
+6. assets/images 
+contains images of all used images.
 ## ScreenShots
-![ScreenShot]('../assets/images/rn-assignment3.jpg')
+![ScreenShot](TaskManager/assets/images/rn-assignment3.jpg)
 
-![ScreenShot]('../assets/images/taskm.jpg')
+![ScreenShot](TaskManager/assets/images/taskm.jpg)
 
-![ScreenShot]('../assets/images/rnapp.jpg')
+![ScreenShot](TaskManager/assets/images/rnapp.jpg)
+
+
+## Student ID
+11333063 (Akrong Adjei Naa Adjorkor)
