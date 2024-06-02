@@ -15,18 +15,23 @@ This project is a mobile application developed using React Native and Expo.The a
 3. Task.jsx
 - Custom component to render each task item.
 - Displays task description.
- 
-4. Data
+
+4. Header.jsx 
+Contains the header and task title
+
+5. Search.jsx
+Contains the search section
+6. Data
 - Category.js
 Contains the data for the category section.
 
 - tasks.js
 Contains the data for the task section.
 
-5. styles
+7. styles
 Contains the styles for the application
 
-6. assets/images 
+8. assets/images 
 contains images of all used images.
 ## ScreenShots
 ![ScreenShot](TaskManager/assets/images/rn-assignment3.jpg)
